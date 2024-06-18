@@ -1,0 +1,89 @@
+*{
+    color: rgb(1, 24, 54), 
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 51, 104);
+    height: 100vh;
+}
+
+.display{
+    background-color:  rgb(2, 1, 58);
+    border: solid 2px rgb(2, 1, 58);
+    border-radius: 8px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 30px;
+
+}
+
+input{
+    background-color: transparent;
+    width: 392px;
+    height: 94px;
+    border: solid 2px transparent;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 60px;
+    text-align: right;
+}
+
+button{
+    background-color: white;
+    gap: 20px;
+    width: 65px;
+    height: 40px;
+    margin: 10PX;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold ;
+    font-family: Arial,;
+    cursor: pointer;
+}
+
+.mainbox .row {
+    background-color:  rgb(2, 1, 58);
+}
+
+.button{
+    border: solid 2px  rgb(2, 1, 58);
+    border-radius: 6px;
+    width: 400px;
+    height: 370px;
+    background-color:  rgb(2, 1, 58);
+    border: solid 2px rgb(2, 1, 58);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.del{
+    background-color: rgb(46, 104, 180);
+    border-color: rgb(46, 104, 180);
+    color: white;
+}
+
+.reset{
+    background-color: rgb(46, 104, 180);
+    border-color: rgb(46, 104, 180);
+    color: white;
+    width: 155px;
+    margin-right: 10px;
+}
+
+.equal{
+    background-color: rgb(255, 1, 1);
+    border-color: rgb(255, 1, 1);
+    color: white;
+    width: 155px;
+}
+
+

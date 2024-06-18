@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <div class="mainbox">
+        <div class="display">
+            <input type="text" placeholder="0" id="inputval" readonly>
+        </div>
+        <div class="button">    
+            <div class="row">
+                <button onclick="appendNumber('7')">7</button>
+                <button onclick="appendNumber('8')">8</button>
+                <button onclick="appendNumber('9')">9</button>
+                <button class="del" onclick="deleteNumber()">Del</button>
+            </div>
+            <div class="row">
+                <button onclick="appendNumber('4')">4</button>
+                <button onclick="appendNumber('5')">5</button>
+                <button onclick="appendNumber('6')">6</button>
+                <button onclick="setOperation('+')">+</button>
+            </div>
+            <div class="row">
+                <button onclick="appendNumber('1')">1</button>
+                <button onclick="appendNumber('2')">2</button>
+                <button onclick="appendNumber('3')">3</button>
+                <button onclick="setOperation('-')">-</button>
+            </div>
+            <div class="row">
+                <button onclick="setOperation('4')">.</button>
+                <button onclick="appendNumber('0')">0</button>
+                <button onclick="setOperation('/')">/</button>
+                <button onclick="setOperation('*')">x</button>
+            </div>
+            <div class="row">
+                <button class="reset" onclick="clearDisplay()">Reset</button>
+                <button class="equal" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+    
+</body>
+</html>
